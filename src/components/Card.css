@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	color: #1c2a38;
+	background-color: #f3f5f9;
+}
+
+.match {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	min-width:600px;
+	border-radius: 10px;
+	box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
+	
+}
+
+.match-content {
+	display: flex;
+	position: relative;
+}
+
+.column {
+	padding: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(100%/3);
+}
+
+.team-name {
+	text-align:center;
+	margin-top: 24px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.match-result {
+	color: #DF9443;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+.container {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
